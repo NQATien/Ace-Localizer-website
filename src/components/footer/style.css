@@ -1,0 +1,6 @@
+.FContainer {
+    display: flex;
+    padding: 6px;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+}

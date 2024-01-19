@@ -6,7 +6,7 @@ export const HeaderComponent = () => {
     <div className='HContainer'>
         <div className='HLogo'>Ace Localizer</div>
         <ul className='HMenu'>
-            <li href="https://www.facebook.com">Giới thiệu</li>
+            <li href="https://www.w3schools.com/" target="_blank">Giới thiệu</li>
             <li>Dự án</li>
             <li>Donate</li>
         </ul>
