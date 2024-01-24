@@ -1,19 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './style.css'
 
 export const HeaderComponent = () => {
+  
   return (
     <div className='HContainer'>
         <div className='HLogo'>Ace Localizer</div>
         <ul className='HMenu'>
-            <li href="https://www.w3schools.com/" target="_blank">Giới thiệu</li>
-            <li>Dự án</li>
-            <li>Donate</li>
+            <li >Giới thiệu</li>          
+            <li >Dự án</li>
+            <li >Donate</li>
         </ul>
         <ul className='HAccountSearch'>
             <li>Login</li>
             <li>Search</li>
-        </ul>
+        </ul> 
     </div>
 
   )

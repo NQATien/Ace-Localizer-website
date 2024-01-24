@@ -2,7 +2,8 @@
     display: flex;
     padding: 6px;
     justify-content: space-around;
-    box-shadow: 0 1px 3px -2px black;
+    /* box-shadow: 0 1px 3px -2px black; */
+    border: 1px solid rgba(64, 71, 82, .1);
 }
 
 .HLogo {
@@ -26,6 +27,13 @@
     cursor: pointer;
     text-decoration: none;
     
+}
+.HMenu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #B2FFFF;
 }
 .HMenu li:before {
     content: "";
